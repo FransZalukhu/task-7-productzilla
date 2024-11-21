@@ -11,8 +11,7 @@ const Home: React.FC = () => {
             Hi, I'm Frans Damai Zalukhu
           </h1>
           <p className="text-lg md:text-xl text-gray-800 mb-6">
-            A passionate web developer creating beautiful and functional web
-            experiences.
+            From a beginner and still a beginner.
           </p>
           <div className="flex justify-center md:justify-start space-x-4">
             <Link
