@@ -1,50 +1,19 @@
-# React + TypeScript + Vite
+# [Task 6 ] ReactJS Router
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## How To Run
+```
+npm run dev
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Homepage
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+![image](https://github.com/user-attachments/assets/3afcdd03-d14e-4902-801b-b113cbf5f69b)
+![image](https://github.com/user-attachments/assets/5bee19f7-0281-4da8-98ed-bda3d206f85d)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Project Page (/project)
+
+![image](https://github.com/user-attachments/assets/1d66a7e1-b33f-4b94-b68d-13f29e9aeac4)
+
+### Contact Me Page or Send Me A Message (/contact)
+
+![image](https://github.com/user-attachments/assets/8837a809-de8a-4ba4-931f-7529dd874c73)
