@@ -6,11 +6,13 @@ WORKDIR /src/app
 
 # Install dependencies
 COPY package*.json ./
-RUN npm install --production
+RUN npm install
 
 # Copy app source
 COPY . .
 
-# Expose port and start app
+# Expose port for Vite development server (default: 5173)
 EXPOSE 5173
-CMD ["npm", "start"]
+
+# Run development server
+CMD ["npm", "run", "dev"]
