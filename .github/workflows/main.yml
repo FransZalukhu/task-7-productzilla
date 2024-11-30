@@ -30,6 +30,22 @@ jobs:
         run: |
           npm test
 
+      - name: Install Docker Compose
+        run: |
+          sudo curl -L "https://github.com/docker/compose/releases/download/v2.23.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+          sudo chmod +x /usr/local/bin/docker-compose
+          docker-compose --version
+
+      - name: Set up Docker Compose
+        uses: ndeloof/install-compose-action@v0.0.1
+
+      - name: Build and test Docker image
+        run: |
+          docker-compose build
+          docker-compose up -d
+          docker-compose exec -T app npm test
+          docker-compose down
+
   build-and-push:
     needs: test
     runs-on: ubuntu-latest
