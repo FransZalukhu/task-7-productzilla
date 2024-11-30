@@ -3,6 +3,17 @@
 ## CI/CD
 [![CI/CD Pipeline](https://github.com/FransZalukhu/task-7-productzilla/actions/workflows/main.yml/badge.svg)](https://github.com/FransZalukhu/task-7-productzilla/actions/workflows/main.yml)
 
+## Component Test
+```
+npm run test
+```
+
+**Result :**
+
+![image](https://github.com/user-attachments/assets/71416db0-9eb5-4af8-986c-c0e1d1b8db67)
+![image](https://github.com/user-attachments/assets/7f127cd4-60de-4b26-9833-fa2c8dd6586f)
+
+
 ## Push Docker Image to Docker Hub
 
 ![image](https://github.com/user-attachments/assets/e46cc15f-9c73-4ae4-8eaf-244a5c6b4804)
