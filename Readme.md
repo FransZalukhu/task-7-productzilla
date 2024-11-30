@@ -10,8 +10,7 @@ npm run test
 
 **Result :**
 
-![image](https://github.com/user-attachments/assets/71416db0-9eb5-4af8-986c-c0e1d1b8db67)
-![image](https://github.com/user-attachments/assets/7f127cd4-60de-4b26-9833-fa2c8dd6586f)
+![image](https://github.com/user-attachments/assets/85a09f27-3bdd-4898-9be8-de3ea31abe39)
 
 
 ## Push Docker Image to Docker Hub
