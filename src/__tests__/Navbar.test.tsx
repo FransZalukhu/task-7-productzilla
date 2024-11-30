@@ -2,6 +2,7 @@ import React from "react";
 import { render, screen, fireEvent } from "@testing-library/react";
 import { BrowserRouter } from "react-router-dom";
 import Navbar from "../component/Navbar/navbar";
+import "@testing-library/jest-dom";
 
 test("renders Navbar correctly", () => {
   render(
@@ -22,5 +23,8 @@ test("toggles mobile menu", () => {
   );
   const menuButton = screen.getByRole("button");
   fireEvent.click(menuButton);
-  expect(screen.getByText("Projects")).toBeVisible();
+
+  const projectLinks = screen.getAllByText("Projects");
+
+  expect(projectLinks[1]).toBeVisible();
 });
