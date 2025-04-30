@@ -9,7 +9,7 @@ import Projects from "./pages/Projects/project";
 const App: React.FC = () => {
   return (
     <Router>
-      <div className="flex flex-col min-h-screen w-full bg-gray-100">
+      <div className="flex flex-col min-h-screen w-full bg-gray-200">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
